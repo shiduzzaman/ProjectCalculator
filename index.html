@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My First Calculator</h1>
+   <div class="container">
+       <div class="main">
+        <table>
+           
+            <tr>
+                <input type="text" id="input">
+            </tr>
+            <tr>
+                <th colspan="2"><button class="clear" onclick="clearAll('')">AC</button></th>
+                
+                <th><button class="clear" onclick="del('')">Del</button></th>
+                <th><button onclick="number('%')">%</button></th>
+            </tr>
+            <tr>
+             <th><button onclick="number('7')">7</button></th>
+             <th><button onclick="number('8')">8</button></th>
+             <th><button onclick="number('9')">9</button></th>
+             <th><button onclick="number('/')">÷</button></th>
+             </tr>
+         <tr>
+             <th><button onclick="number('4')">4</button></th>
+             <th><button onclick="number('5')">5</button></th>
+             <th><button onclick="number('6')">6</button></th>
+             <th><button onclick="number('*')">×</button></th>
+         </tr>
+         <tr>
+             <th><button onclick="number('1')">1</button></th>
+             <th><button onclick="number('2')">2</button></th>
+             <th><button onclick="number('3')">3</button></th>
+             <th><button onclick="number('+')">+</button></th>
+         </tr>
+         <tr>
+             <th><button onclick="number('0')">0</button></th>
+             <th><button onclick="number('.')">.</button></th>
+             <th><button onclick="result('')">=</button></th>
+             <th><button onclick="number('-')">-</button></th>
+         </tr>
+        </table>
+       </div>
+      
+   </div>
+   <script src="calc.js"></script>
+</body>
+</html>
